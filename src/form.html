@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>Bootstrap Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="h1 text-center text-success pt-3">Inquiry Form</h1>
+        <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+          <form>
+            <div class="mb-3">
+              <lable class="form-label">Full Name</lable>
+              <input
+                class="form-control form-control-md"
+                type="text"
+                placeholder="Enter Your Name"
+              />
+            </div>
+
+            <div class="mb-3">
+              <lable class="form-label">Email</lable>
+              <input
+                class="form-control"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
+
+            <div class="mb-3">
+              <lable class="form-label">Phone Number</lable>
+              <input
+                class="form-control"
+                type="email"
+                placeholder="Enter Your Phone Number"
+                disabled
+              />
+            </div>
+
+            <div class="mb-3">
+              <lable class="form-label">Select Course</lable>
+              <select class="form-select">
+                <option>BS Software Engineering</option>
+                <option>BS Computer science</option>
+                <option>BS Data Science</option>
+                <option>BS Artificial Intelligence</option>
+                <option>BS Big Data</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Select Langauges you know!</label>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  English
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Urdu
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Persian
+                </label>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label>Username</label>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
